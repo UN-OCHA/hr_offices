@@ -83,7 +83,7 @@ function hr_offices_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_node_hr_office_pattern';
-  $strongarm->value = '[node:og-group-ref:url:path]/offices/[node:title]';
+  $strongarm->value = '[node:og-group-ref:url:path]/office/[node:title]';
   $export['pathauto_node_hr_office_pattern'] = $strongarm;
 
   return $export;

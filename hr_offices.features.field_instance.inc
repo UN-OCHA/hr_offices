@@ -649,11 +649,12 @@ function hr_offices_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'og_group_ref',
-    'label' => 'Groups audience',
+    'label' => 'Space(s)',
     'required' => 0,
     'settings' => array(
       'behaviors' => array(
         'og_widget' => array(
+          'access_override' => 0,
           'admin' => array(
             'widget_type' => 'entityreference_autocomplete',
           ),
@@ -699,11 +700,11 @@ function hr_offices_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Address');
   t('Email');
-  t('Groups audience');
   t('Is coordination hub');
   t('Location');
   t('Organizations');
   t('Phones');
+  t('Space(s)');
 
   return $field_instances;
 }

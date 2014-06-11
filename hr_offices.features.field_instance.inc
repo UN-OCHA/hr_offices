@@ -665,7 +665,7 @@ function hr_offices_field_default_field_instances() {
         ),
         'prepopulate' => array(
           'action' => 'disable',
-          'action_on_edit' => 1,
+          'action_on_edit' => 0,
           'fallback' => 'form_error',
           'og_context' => 0,
           'skip_perm' => 0,

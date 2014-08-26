@@ -42,6 +42,7 @@ features[field_instance][] = node-hr_office-field_location
 features[field_instance][] = node-hr_office-field_organizations
 features[field_instance][] = node-hr_office-field_phones
 features[field_instance][] = node-hr_office-og_group_ref
+features[field_instance][] = node-hr_office-title_field
 features[node][] = hr_office
 features[og_features_permission][] = node:hr_operation:access authoring options of hr_office content
 features[og_features_permission][] = node:hr_operation:access publishing options of hr_office content

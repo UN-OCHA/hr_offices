@@ -38,7 +38,7 @@ function hr_offices_strongarm() {
           'weight' => '7',
         ),
         'language' => array(
-          'weight' => '6',
+          'weight' => '-10',
         ),
       ),
       'display' => array(),

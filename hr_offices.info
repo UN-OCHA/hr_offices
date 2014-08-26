@@ -54,6 +54,7 @@ features[og_features_permission][] = node:hr_operation:update own hr_office cont
 features[og_features_permission][] = node:hr_operation:view any unpublished hr_office content
 features[panelizer_defaults][] = node:hr_office:default:default
 features[panelizer_defaults][] = node:hr_office:default:search_result
+features[variable][] = entity_translation_settings_node__hr_office
 features[variable][] = field_bundle_settings_node__hr_office
 features[variable][] = language_content_type_hr_office
 features[variable][] = menu_options_hr_office

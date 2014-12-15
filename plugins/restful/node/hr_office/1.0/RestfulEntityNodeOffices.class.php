@@ -50,7 +50,7 @@ class RestfulEntityNodeOffices extends \RestfulEntityBaseNode {
       'property' => 'field_email',
     );
 
-    $public_fields['organizations'] = array(
+    $public_fields['organizations'] = array(
       'property' => 'field_organizations',
       'resource' => array(
         'hr_organization' => 'organizations',

@@ -64,6 +64,14 @@ class RestfulEntityNodeOffices extends \RestfulEntityBaseNode {
       ),
     );
 
+    $public_fields['created'] = array(
+      'property' => 'created',
+    );
+
+    $public_fields['changed'] = array(
+      'property' => 'changed',
+    );
+
     return $public_fields;
   }
 
